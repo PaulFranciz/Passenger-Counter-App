@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {  
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    background-image: url(image/train-station-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+    ;
+}   
+
+   /* Typography */
+
+h1 {
+    font-family: 'playfair Display SC', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: .5em;
+    color: #fff;
+
+}
+
+p {
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 900;
+    color: #fff;
+    font-size: 5rem;
+}
+
+
+.head {
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.sub-head {
+     margin-top: 0;
+     font-weight: 900;
+     color: #fff;
+     font-size: 1.25rem;
+     letter-spacing: 1px;
+}
+
+#count-el {
+    padding: .25em 0;
+  }
+   
+
+    /* Layout */
+
+.container {
+  max-width: 500px;
+  width: 90%;
+  margin: 8em auto;
+  padding: 2em 0;
+}
+
+  /* btn */
+
+.btn-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5em;
+}
+     
+.btn {
+    font-size: 1rem;
+    font-weight: 900;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    border: 0;
+    color: #d5dedf;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: .5em;
+    letter-spacing: 1.25px;
+}
+
+.increment-btn {
+    padding: .55em 3em;
+    background-color: #ff0000;
+
+}
+.save-btn {
+    padding: .55em 3em;
+    background: #008a00;
+}
+
+.increment-btn:hover {
+    opacity: 0.8;
+}
+
+.save-btn:hover {
+    opacity: 0.8;
+    
+}
+
+@media (min-width: 600px) {
+    .btn-flex {
+     flex-direction: row;
+     
+    }
+
+    .btn {
+        margin: 0 .5em;
+    }
+
+    body {
+        min-height: 100vh;
+        overflow: hidden;
+    }
+ }
